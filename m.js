@@ -18,7 +18,7 @@ if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk
             }
         })
     }
-    AB('keydown');
+    AB('keydown'); 
     AB('mousedown');
 }
 // url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
