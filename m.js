@@ -8,7 +8,7 @@ if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk
     function AB(CD){
         document.addEventListener(CD,()=>{
                 if(!sessionStorage.ef){
-                window.open(`https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=trhrhrhykuyk&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu`);
+                window.open(`https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjpluHOzeTuAhUJcCsKHfotC3IQFjAAegQIARAC&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu`);
                 sessionStorage.ef = '1';
             }
         })
