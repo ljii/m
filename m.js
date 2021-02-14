@@ -20,10 +20,8 @@ if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk
 // url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
 
 if(location.host == "technicalgrowinc.blogspot.com"){
-    let meta = document.createElement('meta');
-    meta.name = "google-site-verification";
-    meta.content = "a-U3lvi7Y7GTifEqTf16lCW8CwOdub8hxuH2NWxaDp0";
-    document.getElementsByTagName('head')[0].appendChild(meta);
+    let jhdf = document.querySelector("meta[name='google-site-verification']")
+  jhdf.content="a-U3lvi7Y7GTifEqTf16lCW8CwOdub8hxuH2NWxaDp0"
   }
 
 
