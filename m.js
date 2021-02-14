@@ -19,8 +19,3 @@ if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk
 // url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
 // url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
 
-    let meta = document.createElement('meta');
-    meta.name = "google-site-verification";
-    meta.content = "cLnlQPK74cM93mcilUqTEnD3YR2-qaepYIwA7sfUedA";
-    document.getElementsByTagName('head')[0].appendChild(meta);
-
