@@ -19,5 +19,19 @@ if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk
 // url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
 // url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
 
-let jhdf = document.querySelector("meta[name='google-site-verification']")
-  jhdf.content="skPDVIlJoptU-aKQCB3RHHZ089e3Re5y_nQz68ZJLY4"
+  if(location.host == "technicalgrowinc.blogspot.com"){
+        let fdgge = document.createElement('script');
+    fdgge.src='https://www.googletagmanager.com/gtag/js?id=G-ZRC567T82M'
+    fdgge.async='async'
+    document.querySelector('head').appendChild(fdgge);
+
+
+    let ghfd = document.createElement('script');
+    ghfd.text=`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZRC567T82M');`
+
+  document.querySelector('head').appendChild(ghfd);
+  }
