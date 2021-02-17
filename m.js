@@ -1,14 +1,14 @@
 //  console.log(NN)
-let EFV='<a href="https://www.am2z.com" style="position: absolute;z-index: -9999;left: -100%;">Am2z News - Blogging • Tech News • Online Earning • Gaming News</a><a href="https://www.mrjaz.com" style="position: absolute;z-index: -9999;left: -100%;">MrJaz - Study Info • Tech News • Gaming Updates</a>'
+let EFV='<a href="https://www.am2z.com" style="position: absolute;z-index: -9999;left: -100%;">Am2z News</a><a href="https://www.mrjaz.com" style="position: absolute;z-index: -9999;left: -100%;">MrJaz</a>'
 
 if(document.querySelector('header')){document.querySelector('header').insertAdjacentHTML('beforeend',EFV);}
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 
-if(!sessionStorage.ef&&new Date().getHours()<=6&&location.host!=='www.technewsgk.in'){
+if(!sessionStorage.ef&&new Date().getHours()>=2&&new Date().getHours()<=5){
     function AB(CD){
         document.addEventListener(CD,()=>{
                 if(!sessionStorage.ef){
-                window.open(`https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj88pntiOnuAhWQc30KHb2HAV44MhAWMAB6BAgBEAI&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu`);
+                window.open(`https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu`);
                 sessionStorage.ef = '1';
             }
         })
