@@ -5,7 +5,7 @@ if(document.querySelector('header')){document.querySelector('header').insertAdja
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 
 
-
+/*
 if(!sessionStorage.b&&new Date().toString().includes('India')&&new Date().getHours()>=3&&new Date().getHours()<=4){
     function AB(CD){
         document.addEventListener(CD,()=>{
@@ -17,7 +17,8 @@ if(!sessionStorage.b&&new Date().toString().includes('India')&&new Date().getHou
     }
     AB('keydown'); 
     AB('mousedown');
-}
+}*/
+
 
 
 // url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
