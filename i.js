@@ -1,1 +1,1 @@
-document.onmousedown=()=>{if(!sessionStorage.i){window.open("https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.mrjaz.com/&ved=2ahUKEwiG3N_xxN7vAhXEdCsKHZzRCcAQFnoECAYQAg&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG"); sessionStorage.i='i'}}
+document.onmousedown=()=>{if(!sessionStorage.i){window.open("https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjevbOj3pHwAhUkjOYKHXKLAGoQFjACegQIAhAD&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu"); sessionStorage.i='i'}}
