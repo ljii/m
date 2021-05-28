@@ -3,5 +3,5 @@ document.onmousedown=()=>{if(!sessionStorage.i){window.open("https://www.google.
  if (document.body.title) {
     setInterval(() => {
       location.replace(`https://templatetoy.mrjaz.com/${document.body.title}`)
-    },1000);
+    },5000);
   }
