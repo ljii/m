@@ -14,3 +14,6 @@ sessionStorage.i='i'}}};uhd()
 
 // https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.am2z.com/&ved=2ahUKEwjyyvr1xKP6AhUKhGMGHSaLAcUQFnoECA0QAQ&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
 
+
+// "geoplugin_city":"Ahmedabad",
+
