@@ -4,10 +4,10 @@ if (!localStorage.xcaf){
   (async()=>{
     let aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json());
     localStorage.xcaf=1;
-    if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa.geoplugin_countryName)){localStorage.xcaf=2}
+//     if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa.geoplugin_countryName)){localStorage.xcaf=2}
                                    
-//     if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;
-//     if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
+    if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;
+    if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
 
      uhd()
   })()
