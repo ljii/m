@@ -9,7 +9,7 @@ if (!localStorage.xcaf) {
 //             uhd()
 //         }
         if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa.geoplugin_countryName)){
-            localStorage.xcaf=2
+            localStorage.xcaf=2;
             uhd()
         }
     })();
