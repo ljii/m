@@ -13,7 +13,7 @@ if (!localStorage.xcaf) {
 //             if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
 //             uhd()
 //         }
-        if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/.test(aa)){
+        if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|Brazil|New Zealand|Italy|Luxembourg|Finland/i.test(aa)){
             localStorage.xcaf=2;
             uhd()
         }
