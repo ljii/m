@@ -9,10 +9,7 @@ if (!localStorage.xcaf) {
         } catch (e) {
             aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
         }
-//         if (/£|[$]|€/.test(aa.geoplugin_currencySymbol)){localStorage.xcaf=2;
-//             if(/Spain/.test(aa.geoplugin_countryName)){localStorage.xcaf=3}
-//             uhd()
-//         }
+        
         if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|South Korea|China|Singapore|Romania/i.test(aa)){
             localStorage.xcaf=2;
             uhd()
@@ -32,8 +29,3 @@ function uhd(){
   }
 }
 uhd()
-
-// "€"==a
-
-// "geoplugin_city":"Ahmedabad",
-
