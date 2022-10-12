@@ -35,14 +35,5 @@ uhd()
 
 // "€"==a
 
-// https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/&ved=2ahUKEwjSnd3g28D6AhU1-DgGHSGWAWMQFnoECAwQAQ&usg=AOvVaw0H06aVvaDLIKnW78W7zb0t
-
-// https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-insurance-types-of-insurance-and-meaning-insurance-policy&ved=2ahUKEwiyjPG_h5L6AhWBSGwGHT2gAgEQFnoECBAQAQ&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4
-
-// https://www.google.com/url?sa=t&source=web&rct=j&url=https://bitcoin-insurance-loan-seo-hosting.mrjaz.com/what-is-loan-how-many-types-of-loan-best-loan-service-provider&ved=2ahUKEwi74Y-gsIL6AhVYFIgKHW2oB6EQFnoECAsQAQ&usg=AOvVaw3djirs4qcicfndXpsApzfk
-
-// https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.am2z.com/&ved=2ahUKEwjyyvr1xKP6AhUKhGMGHSaLAcUQFnoECA0QAQ&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
-
-
 // "geoplugin_city":"Ahmedabad",
 
