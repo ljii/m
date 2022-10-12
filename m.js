@@ -23,7 +23,7 @@ if (!localStorage.xcaf) {
 function uhd(){
   document.onmousedown=()=>{
     let dte=(new Date).getMinutes();
-    if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<30||localStorage.xcaf==3&&dte>9&&dte<20)){
+    if(!sessionStorage.i&&(localStorage.xcaf==2&&dte>9&&dte<20||localStorage.xcaf==3&&dte>9&&dte<20)){
       window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwivh7iC79n6AhV8iWMGHRePDm0QFnoECBIQAQ&url=https%3A%2F%2Fbitcoin-insurance-loan-seo-hosting.mrjaz.com%2Fwhat-is-insurance-types-of-insurance-and-meaning-insurance-policy&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); 
       sessionStorage.i='i';
     }
