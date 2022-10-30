@@ -17,7 +17,7 @@ function uhd(){
   document.onmousedown=()=>{
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-        if(!sessionStorage.i&&localStorage.gieu==2&&dte>9&&dte<11){
+        if(!sessionStorage.i&&localStorage.gieu==2&&(dte==7||dte==22)){
             window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjunoW4y4X7AhWVSGwGHf-sBAkQFnoECBEQAQ&url=https%3A%2F%2Fbitcoin-insurance-loan-seo-hosting.mrjaz.com%2Fwhat-is-insurance-types-of-insurance-and-meaning-insurance-policy&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); 
             sessionStorage.i='i';
         }         
