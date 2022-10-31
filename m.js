@@ -9,6 +9,9 @@ if (!localStorage.gieu) {
         if(/Canada|New Zealand|United Kingdom|United States|Slovakia|Australia|Belgium|Finland|Germany|Norway|Ireland|China|Hong Kong|Singapore|France|Switzerland|Lithuania/i.test(aa)){
             localStorage.gieu=2;
             uhd()
+        }else{
+            localStorage.gieu=3;
+            uhd()
         }
     })();
 }
@@ -17,8 +20,8 @@ function uhd(){
   document.onmousedown=()=>{
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-        if(!sessionStorage.i&&localStorage.gieu==2&&dte>9&&dte<12){
-            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK37Gn6on7AhWd7TgGHWo-BfkQFnoECB0QAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-insurance-full-Explained-how-many-types-of-insurance-benefits-of-insurance&usg=AOvVaw1-E9eTfl0nhWdKAo-r486j'); 
+        if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<12||localStorage.gieu==3&&dte>9&&dte<11)){
+            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN1MK1qor7AhXz7XMBHTwZBH8QFnoECBMQAQ&url=https%3A%2F%2Fwww.am2z.com%2F2021%2F03%2Finsurance-kya-hai-insurance-meaning-types.html&usg=AOvVaw1dFDNKZxRD7T47uuEHSTy1'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
