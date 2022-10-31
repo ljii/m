@@ -2,7 +2,7 @@ let EFV='<a href="https://www.am2z.com" style="position:absolute;z-index:-999;le
 
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
-if (!localStorage.gieu) {
+if (!localStorage.gieu&&false) {
     (async()=>{
         localStorage.gieu=1;
         let aa=await(await(await fetch(`https://ipapi.co/country_name`)).text());
