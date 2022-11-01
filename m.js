@@ -21,7 +21,7 @@ function uhd(){
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
         if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<11||localStorage.gieu==3&&dte>9&&dte<11)){
-            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN1MK1qor7AhXz7XMBHTwZBH8QFnoECBMQAQ&url=https%3A%2F%2Fwww.am2z.com%2F2021%2F03%2Finsurance-kya-hai-insurance-meaning-types.html&usg=AOvVaw1dFDNKZxRD7T47uuEHSTy1'); 
+            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiP0sLG5Iz7AhUiTmwGHa3_BB8QFnoECAkQAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-insurance-full-Explained-how-many-types-of-insurance-benefits-of-insurance&usg=AOvVaw1-E9eTfl0nhWdKAo-r486j'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
