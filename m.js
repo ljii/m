@@ -21,7 +21,7 @@ function uhd(){
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
         if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<12||localStorage.gieu==3&&dte>9&&dte<11)){
-            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih4_SGrI_7AhUMgtgFHQHBDw8QFnoECBcQAQ&url=https%3A%2F%2Fwww.am2z.com%2F2021%2F07%2Floan-kya-hai-loan-kitane-types-ke-hote-hai.html&usg=AOvVaw2wLFaXLsSQ1pImQC1Zg0OH'); 
+            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj26OjulpH7AhXbcGwGHcAxAcE4PBAWegQIIhAB&url=https%3A%2F%2Fwww.am2z.com%2F2021%2F10%2Fblockchain-kya-hai-blockchain-kaise-Kaam-karta-hai.html&usg=AOvVaw3LmyExZICME6lLy5o-o0_8'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
