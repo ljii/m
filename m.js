@@ -20,8 +20,8 @@ function uhd(){
   document.onmousedown=()=>{
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-        if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<11||localStorage.gieu==3&&dte>9&&dte<11&&false)){
-            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj26OjulpH7AhXbcGwGHcAxAcE4PBAWegQIIhAB&url=https%3A%2F%2Fwww.am2z.com%2F2021%2F10%2Fblockchain-kya-hai-blockchain-kaise-Kaam-karta-hai.html&usg=AOvVaw3LmyExZICME6lLy5o-o0_8'); 
+        if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<12||localStorage.gieu==3&&dte>9&&dte<11)){
+            window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwpNec2JP7AhVmZWwGHUhaAu8QFnoECBQQAQ&url=https%3A%2F%2Fbitcoin-loan-insurance-hosting-seo.am2z.com%2Fwhat-is-insurance-full-Explained-how-many-types-of-insurance-benefits-of-insurance&usg=AOvVaw1-E9eTfl0nhWdKAo-r486j'); 
             sessionStorage.i='i';
         }         
     }catch(e){}})()
