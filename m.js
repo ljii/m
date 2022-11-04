@@ -17,7 +17,7 @@ if (!localStorage.gieu) {
 }
 
 function uhd(){
-  document.onmousedown=()=>{
+  document.onclick=()=>{
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
         if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<12||localStorage.gieu==3&&dte>9&&dte<11)){
