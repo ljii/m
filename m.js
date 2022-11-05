@@ -20,7 +20,7 @@ function uhd(){
   document.onclick=()=>{
     let dte=(new Date).getSeconds();
     (async()=>{try{await import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-        if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<11||localStorage.gieu==3&&dte>9&&dte<11)){
+        if(!sessionStorage.i&&(localStorage.gieu==2&&dte>9&&dte<11||localStorage.gieu==3&&dte>9&&dte<9)){
             window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj32re4tJb7AhVnTmwGHSgzAiIQFnoECBEQAQ&url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu'); 
             sessionStorage.i='i';
         }         
