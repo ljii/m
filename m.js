@@ -1,5 +1,14 @@
 let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https://www.am2z.com">Am2z News</a><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com">SohaniSharma</a><a href="https://quikfinance.blogspot.com">Quik Finance</a></div>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
+  document.onclick=()=>{
+    let dts=(new Date).getSeconds();
+    let dtm=(new Date).getMinutes();
+      if(!sessionStorage.i&&dtm==9&&dts==5){
+          window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwjJrN-o0sn7AhUYT2wGHV8-BjMQFnoECBUQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+          sessionStorage.i='i';
+      }         
+  }
+
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
 // if (!localStorage.gieu) {
