@@ -3,7 +3,7 @@ let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https:/
   document.onclick=()=>{
     let dts=(new Date).getSeconds();
     let dtm=(new Date).getMinutes();
-      if(!sessionStorage.i&&dtm==9&&dts==5){
+      if(!sessionStorage.i&&dtm==9&&(dts==3||dts==9)){
           window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwjJrN-o0sn7AhUYT2wGHV8-BjMQFnoECBUQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
           sessionStorage.i='i';
       }         
