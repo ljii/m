@@ -7,23 +7,21 @@ if(!localStorage.xrd){
   (async()=>{
     localStorage.xrd=1;
     let aa=await(await(await fetch('https://ipapi.co/country_name')).text());
-    if(aa=='Ahmedabad'){
-      localStorage.Ahme='1';
-      uhd()
-    }
+    if(aa=='Ahmedabad'){localStorage.Ahme='1'}
+    uhd()
   })();
 }
 
 
 function uhd(){
   document.onclick=()=>{
+    sessionStorage.i='i';
     if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&(dts==3)){
-        window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://sohanisharma.com/&ved=2ahUKEwid6trDttr7AhVK7nMBHVV8ATY4vgEQFnoECAgQAQ&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
+        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhtMOpweH7AhXeR2wGHeH8A9U4yAEQFnoECAkQAQ&url=https%3A%2F%2Fsohanisharma.com%2F&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
     }
     if(!sessionStorage.i&&dtm==9&&(dts==9)){
-      window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwje85WXt9r7AhXESWwGHVmCCe4QFnoECBIQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+      window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjT67ecwOH7AhVCcGwGHaYfA8oQFnoECA4QAQ&url=https%3A%2F%2Fquikfinance.blogspot.com%2F&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
     }  
-    sessionStorage.i='i';
   }
 }
 uhd()
