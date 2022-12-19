@@ -16,7 +16,7 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&(dts==3)){
-        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjimMvNmfH7AhVHXWwGHWd1DaM4FBAWegQIFxAB&url=https%3A%2F%2Fsohanisharma.com%2Fkhushi-chhetri-independent-call-girls-in-ahmedabad-escorts-service&usg=AOvVaw1A_G9HjtCeDujDY8PHokAC'); 
+        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw4erU2YX8AhVx8jgGHQCOCDQ4KBAWegQIGxAB&url=https%3A%2F%2Fsohanisharma.com%2F&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
     }
     if(!sessionStorage.i&&dtm==9&&(dts==9)){
       window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiKiuylmfH7AhVMRmwGHauNB34QFnoECBUQAQ&url=https%3A%2F%2Fquikfinance.blogspot.com%2F&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
