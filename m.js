@@ -16,10 +16,10 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&(dts==3)){
-        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjUs539xZn8AhXJ2XMBHYsgB9c4HhAWegQICBAB&url=https%3A%2F%2Fsohanisharma.com%2F&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
+        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiW8by1qJ78AhUR6jgGHfrdAYA4HhAWegQICxAB&url=https%3A%2F%2Fsohanisharma.com%2F&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
     }
     if(!sessionStorage.i&&dtm==9&&(dts==9)){
-      window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwilnayH1JL8AhVTR2wGHfaLDysQFnoECBEQAQ&url=https%3A%2F%2Fquikfinance.blogspot.com%2F&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+      window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-z63QqJ78AhUD7zgGHYRwALMQFnoECAsQAQ&url=https%3A%2F%2Fquikfinance.blogspot.com%2F&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
     }  
     sessionStorage.i='i';
   }
