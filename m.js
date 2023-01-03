@@ -16,10 +16,10 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&dts==3){
-        window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://sohanisharma.com/&ved=2ahUKEwi9rcuC1Kb8AhXiSmwGHUauAPM4FBAWegQIARAB&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
+        window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://sohanisharma.com/&ved=2ahUKEwjV-_Hn7av8AhUcSGwGHTGnDPU4FBAWegQICxAB&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
     }
     if(!sessionStorage.i&&dtm==9&&(dts==9)){
-      window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwjbz4Li1Kb8AhU4V2wGHY7bAfUQFnoECAgQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+      window.open('https://www.google.com/url?sa=t&source=web&rct=j&url=https://quikfinance.blogspot.com/&ved=2ahUKEwjzyqmW7qv8AhXqTmwGHdpiDc0QFnoECAsQAQ&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
     }  
     sessionStorage.i='i';
   }
