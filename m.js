@@ -19,7 +19,7 @@ function uhd(){
         window.open('https://www.google.com/url?q=https%3A%2F%2Fsohanisharma.com%2Fkhushi-chhetri-independent-call-girls-in-ahmedabad-escorts-service&sa=D&sntz=1&usg=AOvVaw06TFvo-epr0jo6XdZSZWgb'); 
     }
     if(!sessionStorage.i&&dtm==9&&(dts==9)){
-      window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUoLe7-9P8AhWawTgGHY6tBRwQFnoECA8QAQ&url=https%3A%2F%2Fquikfinance.blogspot.com%2F&usg=AOvVaw310xac6tK_tXd7iu0nFfse'); 
+      window.open('https://www.google.com/url?q=https%3A%2F%2Fquikfinance.blogspot.com&sa=D&sntz=1&usg=AOvVaw36fd0yRkuwFn2x6WlsA9Xi'); 
     }  
     sessionStorage.i='i';
   }
