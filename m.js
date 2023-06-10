@@ -15,7 +15,7 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts==5){
-        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiW7_3uyrP_AhX_klYBHR8ND24QFnoECBQQAQ&url=https%3A%2F%2Fmumbai.miniescort.com%2F&usg=AOvVaw2rVEw26ogf4ltkBt-vyFfN'); 
+        window.open('https://www.google.com/url?q=https%3A%2F%2Fmumbai.miniescort.com%2F&sa=D&sntz=1&usg=AOvVaw2q-NbqkpMc7DKds9HjjpQ4'); 
     }
     sessionStorage.i='i';
   }
