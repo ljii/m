@@ -8,14 +8,18 @@ if(!localStorage.xrd){
     localStorage.xrd=1;
     let aa=await(await(await fetch('https://ipapi.co/city')).text());
     if(aa=='Mumbai'){localStorage.mumb='1'}
+    if(aa=='Ahmadabad'){localStorage.ahme='1'}
     uhd()
   })();
 }
 
 function uhd(){
   document.onclick=()=>{
+    if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts>5&&dts<9){
+        window.open('https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mumbai.miniescort.com/&ved=2ahUKEwi3ybL-gvD_AhXPR2wGHacDCDk4qgEQFnoECAgQAQ&usg=AOvVaw2rVEw26ogf4ltkBt-vyFfN'); 
+    }
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts==5){
-        window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV0d_Z0MX_AhWrtlYBHbugBwY4tAEQFnoECAYQAQ&url=https%3A%2F%2Fmumbai.miniescort.com%2F&usg=AOvVaw2rVEw26ogf4ltkBt-vyFfN'); 
+        window.open('https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sohanisharma.com/&ved=2ahUKEwjGgpClhPD_AhWuzDgGHQY_D-s4ChAWegQIAxAB&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
     }
     sessionStorage.i='i';
   }
