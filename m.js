@@ -2,11 +2,16 @@ let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https:/
 
 let dtm=(new Date).getMinutes();
 let dts=(new Date).getSeconds();
+let aa='';
 // https://ipapi.co/country_name
 if(!localStorage.xrd){
   (async()=>{
     localStorage.xrd=1;
-    let aa=await(await(await fetch('https://ipapi.co/city')).text());
+     try {
+        aa=await(await(await fetch('https://ipapi.co/city')).text());
+      }catch(e){
+        aa=await(await(await fetch('http://ip-api.com/line/?fields=city')).text());
+      }
     if(aa=='Mumbai'){localStorage.mumb='1'}
     if(aa=='Ahmadabad'){localStorage.ahme='1'}
     uhd()
