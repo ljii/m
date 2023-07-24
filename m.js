@@ -18,7 +18,7 @@ function uhd(){
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts>5&&dts<9){
         window.open('https://www.google.com/search?q=mumbai+escort+service+miniescort.com'); 
     }
-    if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts==5){
+    if(!sessionStorage.i&&localStorage.ahme&&dtm==3&&dts==5){
         window.open('https://www.google.com/search?q=ahmedabad+escort+service+sohanisharma.com'); 
     }
     sessionStorage.i='i';
