@@ -16,10 +16,10 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts>5&&dts<9){
-        window.open('https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mumbai.miniescort.com/&ved=2ahUKEwi3ybL-gvD_AhXPR2wGHacDCDk4qgEQFnoECAgQAQ&usg=AOvVaw2rVEw26ogf4ltkBt-vyFfN'); 
+        window.open('https://www.google.com/search?q=mumbai+escort+service+miniescort.com'); 
     }
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts==5){
-        window.open('https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sohanisharma.com/&ved=2ahUKEwjGgpClhPD_AhWuzDgGHQY_D-s4ChAWegQIAxAB&usg=AOvVaw2FwzforLOYGwSOaMFMe8Du'); 
+        window.open('https://www.google.com/search?q=ahmedabad+escort+service+sohanisharma.com'); 
     }
     sessionStorage.i='i';
   }
