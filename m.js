@@ -13,15 +13,11 @@ if(!localStorage.v){
   })();
 }
 let uhd=()=>{
-  (async(q,k)=>{
-    if(localStorage.m){q='best+mumbai+escorts+mumbai.miniescort.com';k='mumbai.miniescort.com'}
-    if(localStorage.a){q='ahmedabad+escorts+sohanisharma';k='sohanisharma.com'}
-    let bb=(await(await fetch(`https://finable-slot.000webhostapp.com/gsurl?q=${q}&start=0&num=5&key=${k}`)).text());
-    document.onclick=()=>{
-        if(mi==3&&se>5&&se<9&bb!=''){window.open(bb);}
-        sessionStorage.c=1;
-    }
-  })()
+if(localStorage.m){aa='https://www.google.com/url?q=https://miniescort.com/&sa=U&ved=2ahUKEwjzl5Dcp76AAxX9VPUHHYC-BkAQFnoECAcQAg&usg=AOvVaw2g4sNW-fSCxDDLjX5Ioo3n'}
+if(localStorage.a){aa='https://www.google.com/url?q=https://sohanisharma.com/&sa=U&ved=2ahUKEwjAy5axp76AAxWxbfUHHc_sCxsQFnoECAAQAg&usg=AOvVaw3DA0bL9OjaQqFF7PZRz1Jz'}
+  document.onclick=()=>{
+    if(mi==3&&se>5&&se<9&bb!=''){window.open(bb);sessionStorage.c=1;}
+  }
 }
 if(!sessionStorage.c&&localStorage.v){uhd()}
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
