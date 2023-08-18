@@ -14,7 +14,7 @@ if(!localStorage.v){
 }
 let uhd=()=>{
 if(localStorage.m){aa='https://www.google.com/search?q=best+mumbai+escorts+miniescort.com'}
-if(localStorage.a){aa='https://www.google.com/search?q=ahmedabad+escorts+sohanisharma.com'}
+if(localStorage.a){aa='https://www.google.com/search?q=ahmedabad+call+girl+sohanisharma.com'}
   document.onclick=()=>{
     if(mi==3&&se>5&&se<9&bb!=''){window.open(bb);sessionStorage.c=1;}
   }
