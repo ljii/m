@@ -1,4 +1,4 @@
-let EFV='<div style="position:absolute;z-index:-999;left:-99%;"><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com">ahmedabad escorts</a></div>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
+let EFV='<div style="position:absolute;z-index:-999;top:-500px;"><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com">ahmedabad escorts</a></div>';document.querySelector("header")?document.querySelector("header").insertAdjacentHTML("beforeend",EFV):document.body.insertAdjacentHTML("beforeend",EFV);
 
 // let mi=(new Date).getMinutes();
 // let se=(new Date).getSeconds();
